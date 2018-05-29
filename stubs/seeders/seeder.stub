@@ -1,0 +1,23 @@
+<?php
+/**
+ * This file is part of Notadd.
+ *
+ * @datetime DummyDatetime
+ */
+
+use Notadd\Foundation\Database\Abstracts\Seeder;
+
+/**
+ * Class DummyClass.
+ */
+class DummyClass extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+    }
+}
