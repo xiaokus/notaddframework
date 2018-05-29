@@ -18,7 +18,6 @@ class InformationsController extends Controller
         $group=MemberGroup::query()->where('identification', 'channel')->first();
         $member=MemberGroupRelation::query()->where('member_id',$user->id)->first();
         if($group->id==$member->group_id){
-
             return $this->response->json([
                 'data'    => [
                     'navigation'  =>[
